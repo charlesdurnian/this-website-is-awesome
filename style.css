@@ -1,17 +1,23 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 h1 {
-    color: white;
+    color: whitesmoke;
+    font-weight: extra-bold
+    
 }
 
-p {
-    color: white;
+.displayText p {
+    font-size: 14px;
+    color: rgb(207, 205, 205);
+    padding: 10px 0px 10px 0px;
 }
 
 .container {
+   
     background-color: #1F2937;
 }
 
@@ -29,7 +35,9 @@ p {
 }
 
 .navigation li {
-    padding: 10px
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 18px
 }
 
 .logo {
@@ -41,4 +49,17 @@ p {
     padding: 30px;
     justify-content: space-around;
     align-items: center;
+}
+
+.btn {
+    background-color: rgb(0, 153, 255);
+    padding: 8px 24px 8px 24px;
+    border: 0px;
+    margin: 6px 0px 0px 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.displayImage {
+    padding: 0 0 20px 0;
 }
