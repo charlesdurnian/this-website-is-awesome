@@ -3,16 +3,29 @@
     margin: 0;
 }
 
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    background-color: #1F2937;
+}
+
 .navigation {
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    padding: 10px;
 }
 
 .headerLinks {
     display: flex;
     list-style-type: none;
     color: white;
+    font-size: 18px;
 }
 
 .navigation li {
@@ -21,4 +34,11 @@
 
 .logo {
     height: 50px
+}
+
+.display {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
