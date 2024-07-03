@@ -50,7 +50,7 @@ h1 {
     align-items: center;
 }
 
-.btn {
+.btn1 {
     background-color: #0099ff;
     padding: 8px 24px 8px 24px;
     border: 0px;
@@ -103,5 +103,50 @@ h1 {
 .thirdContainer {
     display: flex;
     flex-direction: column;
+    background-color: lightgrey;
+    padding: 40px;
 }
 
+.thirdContainer, em {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote {
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.fourthContainer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 20px;
+    background-color: #0099ff;
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p, .callToAction {
+    color: white;
+}
+
+.btn2 {
+    background-color: #0099ff;
+    display: flex;
+    padding: 8px 24px 8px 24px;
+    border: 0px;
+    margin: 6px 0px 0px 0px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+} 
